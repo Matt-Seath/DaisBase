@@ -4,11 +4,12 @@ title = "CloudLogic"
 weight = 12
 +++
 
-Lorem Ips
-<div class="mermaid">
-    graph TD;
-        A-->B;
-        A-->C;
-        B-->D;
-        C-->D;
-</div>
+
+{{< mermaid align="left" >}}
+graph LR;
+    A[Hard edge] -->|Link text| B(Round edge)
+    B --> C{<strong>Decision</strong>}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+{{< /mermaid >}}
+
