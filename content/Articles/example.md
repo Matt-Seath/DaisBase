@@ -1,7 +1,6 @@
 +++
-archetype = "default"
-title = "CloudLogic"
-weight = 10
+title = "Example"
+weight = 9
 +++
 
 {{< mermaid >}}
@@ -11,6 +10,6 @@ graph TB;
     C -->|One| D[Result one]
     C -->|Two| E((j kkljlkjlkjlk))
     
-    click E "{{< relref "Authentication Issues/_index.md" >}}"
+    click E "{{< relref "/content/CloudLogic/Authentication Issues/_index.md" >}}"
     click B "{{< relref "/content/CloudLogic/Authentication Issues/_index.md" >}}"
 {{< /mermaid >}}
